@@ -3,7 +3,7 @@
 
 kubectl -n sort get deployments --sort-by=.metadata.creationTimestamp
 
-´´´
+'''
 NAME       READY   UP-TO-DATE   AVAILABLE   AGE
 afefaven   0/1     1            0           41s
 anuwural   0/1     1            0           40s
@@ -25,4 +25,4 @@ ukucokip   0/1     1            0           23s
 ohorunuy   0/1     1            0           22s
 ijisonav   0/1     1            0           20s
 ubehefar   0/1     1            0           19s
-´´´
+'''
