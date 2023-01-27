@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: uhiqomoy
+  name: uhiqomoy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: uhiqomoy
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: uhiqomoy
+    spec:
+      containers:
+      - image: busybox
+        name: busybox
+        resources: {}
+status: {}

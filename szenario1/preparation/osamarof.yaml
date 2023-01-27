@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: osamarof
+  name: osamarof
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: osamarof
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: osamarof
+    spec:
+      containers:
+      - image: busybox
+        name: busybox
+        resources: {}
+status: {}
