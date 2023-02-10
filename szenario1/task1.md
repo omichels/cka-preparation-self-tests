@@ -16,12 +16,12 @@ The list must be sorted by the age (creation Time) of the deployment
 Use "kubectl" for this task
 
 
-<details><summary>show</summary>
+<details><summary>show solution</summary>
 <p>
-## Solution for Task 1
 
-
+```
 kubectl -n sort get deployments --sort-by=.metadata.creationTimestamp
+```
 
 ```
 NAME       READY   UP-TO-DATE   AVAILABLE   AGE

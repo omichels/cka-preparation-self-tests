@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     app: acitojod
+    the-ring: moria
   name: acitojod
 spec:
   replicas: 1
